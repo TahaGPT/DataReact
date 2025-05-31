@@ -90,3 +90,50 @@ header > img {
   width: 60px;
   padding: 10px;
 }
+
+
+article {
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+  background-color: #fff;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card.box {
+  width: 187px;
+  height: 200px; /* or whatever size you want */
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 50px 50px rgba(195, 3, 248, 0.1);
+  margin-bottom: 30px;
+}
+
+article > h1 {
+  margin-bottom: 20px;
+}
+
+.card.box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+

@@ -1,3 +1,4 @@
+import Card from "./Card.jsx"
 export default function MainComponent() {
   return (
     <main>
@@ -11,6 +12,14 @@ export default function MainComponent() {
           <li>Beach vacation in Hawaii</li>
         </ul>
       </section>
+      <section className = "cards">
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+
+      </section>
+      
     </main>
   );
 }
