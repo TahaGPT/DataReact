@@ -7,7 +7,7 @@ export default function MainComponent() {
     return (
       <Card
         key ={item.id}
-        something = {item}
+        {...item} 
       />
     )
   })
